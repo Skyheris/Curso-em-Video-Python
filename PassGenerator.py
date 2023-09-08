@@ -25,7 +25,7 @@ while True:
     escolha = str(input("Desejas gerar outra password? [S/N]: "))
     if escolha.strip()[0] in "Nn":
         break
-    quantidade = int(input("Quantos caracteres queres que tenha a tua palavra pass? [1-30]: "))
+    quantidade = int(input("Quantos caracteres queres que tenha a tua palavra pass? [1-100]: "))
 print("Finalizando...")
 time.sleep(0.6)
 print("As passwords geradas foram:")
